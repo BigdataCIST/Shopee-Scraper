@@ -21,7 +21,7 @@
 
 ![Luồng thu thập dữ liệu](https://github.com/BigdataCIST/Shopee-Scraper/assets/103992475/cbc45e59-df4e-41c2-9537-be0ba61ab80e)
 
-* Export dữ liệu từ MongoDB ta được 2 file: `data/shopee_products.csv` và `data/product.xlsx`
+* Export dữ liệu từ MongoDB ta được 2 file: `data/shopee_products.csv` và `data/shopee_products.xlsx`
 
 ## Chạy chương trình
 * Tạo file `.env` để lưu trữ thông tin cấu hình MongoDB và `MAX_WORKERS` để chạy đa luồng
