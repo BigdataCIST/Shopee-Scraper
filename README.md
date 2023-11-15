@@ -16,7 +16,7 @@
   
   * Thu thập thông tin chi tiết sản phẩm (`utils/product_url_scraper.py`)
     * Từ product_url, ta lấy được itemid và shopid
-    * Sử dụng api `https://shopee.vn/api/v4/pdp/hot_sales/get?item_id=[itemid]&limit=8&offset=0&shop_id=[self.shopid]`
+    * Sử dụng api `https://shopee.vn/api/v4/pdp/hot_sales/get?item_id=[itemid]&limit=8&offset=0&shop_id=[shopid]`
     * Ouput: dữ liệu được lưu trọng MongoDB
 
 ![Luồng thu thập dữ liệu](https://github.com/BigdataCIST/Shopee-Scraper/assets/103992475/cbc45e59-df4e-41c2-9537-be0ba61ab80e)
